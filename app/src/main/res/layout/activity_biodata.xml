@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gra2"
+    tools:context=".biodata">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/gunung" />
+
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="BIODATA"
+            android:textSize="40dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textAlignment="center" />
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="58dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Nama :"
+                android:textSize="25dp"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                style="@style/Teksbio"
+                android:layout_width="258dp"
+                android:layout_height="wrap_content"
+                android:text="Erwin Johannes"
+                android:textColor="#000" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="56dp">
+
+            <TextView
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Alamat :"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Batujajar Regency"
+                android:textColor="#000"
+                android:textSize="25dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="56dp">
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="107dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:text="Hobby  :"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/Teksbio"
+                android:text="Main Kaleci"
+                android:textColor="#000" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="56dp">
+
+
+            <TextView
+                android:layout_width="107dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:text="Hobby  :"
+                android:textSize="25dp" />
+
+            <TextView
+                style="@style/Teksbio"
+                android:text="TK,SD,SMP,SMK"
+                android:textColor="#000" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="56dp">
+
+
+            <TextView
+                android:layout_width="107dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:text="TTL       :"
+                android:textSize="25dp" />
+
+            <TextView
+                style="@style/Teksbio"
+                android:text="Cimahi, 01-02-03"
+                android:textColor="#000" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="93dp">
+
+
+            <TextView
+                android:layout_width="107dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:text="Motto   :"
+                android:textSize="25dp" />
+
+            <TextView
+                style="@style/Teksbio"
+                android:text="Sudah makan, wajib minum"
+                android:textColor="#000" />
+
+
+        </TableRow>
+
+        <Button
+            android:id="@+id/btnext"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="100dp"
+            android:text="Next"/>
+
+    </LinearLayout>
+ />
+
+
+</RelativeLayout>

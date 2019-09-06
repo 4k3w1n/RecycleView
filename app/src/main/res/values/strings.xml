@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My4pl1c4t10n</string>
+    <string name="heroes_name">Nama Pahlawan</string>
+    <string name="ditel">Detail</string>
+    <string name="gmbr1">Ini saat saya Muncak ke Gunung, dengan kawan2. saat itu saya ingat Hari kemerdekaan Indonesia yg ke-73 Proud bgt bisa ngibarin bendera Indonesia di Puncak Gunung</string>
+    <string name="gmbr3">Siapa yg tidak tau dengan Soekarno. Ya beliau adalah Presiden pertama di Indonesia, tanpa beliau mungkin Indonesia tidak akan seperti ini. Terimakasih Pak.</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="with_cardview">with CardView</string>
+    <string name="favorite">Favorite</string>
+    <string name="share">Share</string>
+</resources>
